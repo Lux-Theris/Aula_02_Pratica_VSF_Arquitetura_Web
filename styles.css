@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.Fundo{
+  background: black;
+  font-family:  "Handjet", sans-serif;
+  color: white;
+}
+
+body img {
+  max-width: 20rem;
+  max-height: 15rem;
+  border-radius: 50%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  border: double gold;
+  margin: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.table th {
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+
+.table td {
+  border: 1px solid white;
+  padding: 0.5rem;
+}
